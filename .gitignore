@@ -1,0 +1,63 @@
+# 编译输出
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.pom
+*.tag
+
+### Maven ###
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+### IDE ###
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+### Logs ###
+*.log
+logs/
+
+### 数据库 ###
+*.db
+*.sqlite
+*.sqlite3
+
+### 配置文件（包含敏感信息）###
+application-local.properties
+application-dev.properties
+application-prod.properties
+*.p12
+*.pfx
+
+### 密钥和证书 ###
+*.key
+*.pem
+*.cer
+*.crt
+*.jks
+*.keystore
+
+### 临时文件 ###
+*.tmp
+*.bak
+*.swp
